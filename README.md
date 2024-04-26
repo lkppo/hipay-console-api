@@ -1,8 +1,8 @@
 # hipay-console-api
 
-HiPay Console API client library for PHP following the documentation of this API from April 26, 2024. See
+HiPay Console API client library for PHP following the documentation of this API from April 26, 2024.
 
-- [Automatic export via the Console API](https://support.hipay.com/hc/en-us/articles/360020476679-Automatic-export-via-the-Console-API)
+See [Automatic export via the Console API](https://support.hipay.com/hc/en-us/articles/360020476679-Automatic-export-via-the-Console-API) documentation.
 
 
 # Installing via Composer
