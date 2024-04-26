@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "description": "HiPay Console API client library for PHP",
     "keywords": [
-        "hipay",
+        "HiPay",
         "payment",
         "api",
         "console",
