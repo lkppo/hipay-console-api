@@ -7,10 +7,11 @@
  * @version     0.1.0
  * @copyright   Copyright (c) 2024, LkpPo
  * @license https://www.isc.org/licenses/ ISC License
+ * @see https://github.com/lkppo/hipay-console-api
  */
 
 /**
- * Interface classe for the HiPay Console API
+ * HiPay client library for PHP
  *
  * @see https://support.hipay.com/hc/en-us/articles/360020476679-Automatic-export-via-the-Console-API
  * @see https://console.hipay.com/api/docs
@@ -24,7 +25,8 @@ namespace LkpPo\HiPay
     const STAGE_CONSOLE_API_URL = "https://stage-console.hipay.com/api";
     
 	/**
-	 * Interface class for the HiPay Console API
+	 * HiPay Console API client class
+	 * Client class for HiPay Console API
 	 */
 	class ConsoleAPI
 	{
