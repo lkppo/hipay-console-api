@@ -1,0 +1,38 @@
+{
+    "name": "lkppo/hipay-console-api",
+    "type": "library",
+    "minimum-stability": "dev",
+    "description": "HiPay Console API client library for PHP",
+    "keywords": [
+        "hipay",
+        "payment",
+        "api",
+        "console",
+        "export"
+    ],
+    "homepage": "https://github.com/lkppo/hipay-console-api",
+    "readme": "README.md",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Stéphane Aulery",
+            "homepage": "https://saulery.legtux.org",
+            "email": "lkppo@free.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "lkppo@free.fr",
+        "issue": "https://github.com/lkppo/hipay-console-api/issues"
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LkpPo\\HiPay\\": "src/"
+        }
+    }
+}
