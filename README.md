@@ -22,4 +22,4 @@ require 'vendor/autoload.php';
 
 # License
 
-This repository is under the ISC License, see the complete license [here](LICENSE)
+This repository is under the ISC License, see the complete license [here](LICENSE).
