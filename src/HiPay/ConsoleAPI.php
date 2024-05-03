@@ -772,9 +772,9 @@ namespace LkpPo\HiPay
             $fp = fopen($destination_path, 'wb');
             $ch = curl_init();
             
-	        curl_setopt($ch, CURLOPT_URL, $this->api_url . $url);
+	        curl_setopt($ch, CURLOPT_URL, $this->api_url . $source_url);
 	        
-	        curl_setopt($ch, CURLOPT_HTTPHEADER, $this->__build_headers([]));
+	        curl_setopt($ch, CURLOPT_HTTPHEADER, $this->__merge_headers([]));
             
             //curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, FALSE);
